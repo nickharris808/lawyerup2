@@ -1,4 +1,5 @@
-streamlit==1.25.0  # Ensure compatibility with your Streamlit app
-openai==0.27.8     # For interacting with the OpenAI API
-Pillow==10.0.1     # Required for image processing (dependency issue mentioned)
-typing-extensions  # Provides backport of typing features (if needed by your code)
+streamlit==1.25.0     # Compatible version of Streamlit
+openai==0.27.8        # For OpenAI API
+Pillow>=7.1.0,<10.0   # Compatible range for Pillow
+pandas==2.2.3         # Ensure compatibility with Python 3.12
+typing-extensions     # Optional, to support advanced type hints if required
