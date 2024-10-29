@@ -1,2 +1,4 @@
-streamlit==1.26.0
-openai==0.27.8
+streamlit==1.25.0  # Ensure compatibility with your Streamlit app
+openai==0.27.8     # For interacting with the OpenAI API
+Pillow==10.0.1     # Required for image processing (dependency issue mentioned)
+typing-extensions  # Provides backport of typing features (if needed by your code)
